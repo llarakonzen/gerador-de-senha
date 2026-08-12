@@ -72,3 +72,32 @@ header {
     margin-bottom: 20px;
     color: #444;
 }
+
+.control-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.control-label {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.counter {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.counter button {
+    width: 35px;
+    heigth: 35px;
+    border:none;
+    border-radius: 50%;
+    background: #4CAF50;
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+}
